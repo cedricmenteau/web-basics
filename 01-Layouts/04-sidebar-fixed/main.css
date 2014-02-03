@@ -1,6 +1,45 @@
 .container {
   margin: 0 auto;  
   width: 840px;
-	font-family: 'Open Sans', sans-serif;
-	padding
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	border-bottom: 1px solid #cdcdcd;
+	position: fixed;
+	background: #fff;
+	width: 100%;
+}
+
+header h1 {
+	font-weight: normal;
+	font-size: 2.2em;
+}
+
+nav {
+	clear: both;
+	float:left;
+	width:169px;
+	height: 100%;
+	position: fixed;
+	margin-top: 100px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+
+footer{
+  border-top: 1px solid #cdcdcd;
+  margin-top:400px;
+}
+
+.content{
+	width: 650px;
+	float:right;
+	border-left: 1px solid #cdcdcd;
+	padding-left: 20px;
+	margin-top: 90px;
 }
