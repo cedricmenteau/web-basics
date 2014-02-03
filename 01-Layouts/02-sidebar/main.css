@@ -4,3 +4,29 @@
 	font-family: 'Open Sans', sans-serif;
 }
 
+header {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align:left;
+  margin-left: -40px;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+#sidebar {
+clear:both;
+float: left;
+width:140px;
+}
+
+#main {
+float:right;
+width:669px;
+border-left: 1px solid #cdcdcd;
+padding-left: 30px;
+}
