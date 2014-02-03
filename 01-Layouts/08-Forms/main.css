@@ -46,3 +46,6 @@ h1{
 	padding: 100px;
 }
 
+.control-group{
+	margin: 15px 0 15px 0 !important;
+}
