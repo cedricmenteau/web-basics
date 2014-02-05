@@ -18,4 +18,5 @@ post '/coach' do
    	else 
    	@coach_message = params[:coach_message] || "I don't care son, get dressed and go to work !" 
   end
+  erb :index
 end
