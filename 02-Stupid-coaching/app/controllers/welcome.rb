@@ -1,3 +1,5 @@
+#require 'pry'
+
 get '/' do
   @coach_message = params[:coach_message] || "what do you want kid ?"
   # Look in app/views/index.erb
@@ -9,7 +11,11 @@ get '/' do
 end
 
 post '/coach' do
-  puts "self instance variable from POST '/coach' route handler: #{self.instance_variables}"
-  
-  "Implement your coach response ! params => #{params.inspect}"
+	#binding.pry
+	answer = params[:what]
+   	if answer.end_with?("?")
+     @coach_message = params[:coach_message] || "What's wrong with you kid?"
+   	else 
+   	@coach_message = params[:coach_message] || "I don't care son, get dressed and go to work !" 
+  end
 end
